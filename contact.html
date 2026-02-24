@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Abhishek Halwai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navwrap">
+      <a class="brand" href="index.html">Abhishek Halwai</a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact</h1>
+    <p class="subtitle">Best way to reach me.</p>
+
+    <div class="card">
+      <h2>Email</h2>
+      <p><a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a></p>
+
+      <h2>LinkedIn</h2>
+      <p><a href="YOUR_LINKEDIN_URL_HERE" target="_blank" rel="noreferrer">LinkedIn profile</a></p>
+
+      <h2>CV</h2>
+      <p class="small">
+        Upload your CV to this repository as <code>resume.pdf</code>, then this link will work:
+      </p>
+      <p><a href="resume.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="y"></span> Abhishek Halwai</div>
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
