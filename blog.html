@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog | Abhishek Halwai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navwrap">
+      <a class="brand" href="index.html">Abhishek Halwai</a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Blog</h1>
+    <p class="subtitle">Short posts on biogas/AD, wastewater, GIS, and learning notes.</p>
+
+    <div class="card">
+      <h2><a href="blog-1.html">How trace elements affect anaerobic digestion (simple explanation)</a></h2>
+      <p class="small">Draft • Add date • 4–6 min read</p>
+      <p>A practical overview: why TEs matter, when they help, and when they inhibit.</p>
+    </div>
+
+    <div class="card">
+      <h2><a href="blog-2.html">GIS for environmental engineers: my workflow</a></h2>
+      <p class="small">Draft • Add date • 4–6 min read</p>
+      <p>How I organize layers, attributes, projections, and map outputs.</p>
+    </div>
+
+    <p class="small">
+      Next step: we’ll create <code>blog-1.html</code> and <code>blog-2.html</code> as real pages (optional right now).
+      If you don’t want separate blog post pages yet, remove those links and keep this as a list.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="y"></span> Abhishek Halwai</div>
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
