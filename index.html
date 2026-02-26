@@ -20,41 +20,110 @@
   </header>
 
   <main class="container">
-    <h1>Environmental Engineer</h1>
-    <p class="subtitle">Resource Recovery • Anaerobic Digestion • GIS</p>
 
-    <div class="card">
-      <h2>About</h2>
-      <p>
-        I’m Abhishek Halwai, an environmental engineer from Nepal focused on resource recovery,
-        anaerobic digestion/biogas systems, and applied sustainability work.
-      </p>
-      <p class="small">
-        Tip: Upload your CV as <code>resume.pdf</code> in this repo and add a link on the Contact page.
-      </p>
-    </div>
+    <section class="hero">
+      <div class="card">
+        <h1 class="h1">Environmental Engineer</h1>
+        <p class="subtitle">Resource Recovery • Anaerobic Digestion & Biogas • GIS & Environmental Data</p>
 
-    <div class="card">
-      <h2>Highlights</h2>
-      <ul>
-        <li>Pilot-scale anaerobic digestion / reactor operation and monitoring</li>
-        <li>Trace element supplementation & BMP-style experiments</li>
-        <li>Municipal waste management support and GIS mapping</li>
+        <div class="badges">
+          <span class="badge">📍 Nepal</span>
+          <span class="badge">🧪 Anaerobic digestion / BMP</span>
+          <span class="badge">🗺️ GIS mapping</span>
+          <span class="badge">🏛️ Municipal SWM support</span>
+        </div>
+
+        <div class="btnrow">
+          <a class="btn primary" href="projects.html">View projects</a>
+          <a class="btn" href="contact.html">Contact / CV</a>
+          <a class="btn" href="blog.html">Read blog</a>
+        </div>
+
+        <p class="small" style="margin-top:14px;">
+          I build practical solutions at the intersection of waste-to-energy, wastewater sustainability,
+          and data-driven environmental systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Current focus</h2>
+        <ul class="list">
+          <li>Improving AD performance through trace elements & process optimization</li>
+          <li>Turning field + lab data into decisions (monitoring, troubleshooting, reporting)</li>
+          <li>Building an environmental engineering portfolio with GIS and modeling</li>
+        </ul>
+        <p class="small">Open to: research assistantship / MS–PhD opportunities / technical roles.</p>
+      </div>
+    </section>
+
+    <section style="margin-top:14px;" class="kpi">
+      <div class="card">
+        <div class="num">1+ year</div>
+        <div class="lab">Research & lab experience</div>
+        <div class="small">Pilot-scale operations, sampling, analysis, reporting</div>
+      </div>
+      <div class="card">
+        <div class="num">AD + GIS</div>
+        <div class="lab">Core strengths</div>
+        <div class="small">Resource recovery + spatial/environmental data handling</div>
+      </div>
+      <div class="card">
+        <div class="num">Nepal context</div>
+        <div class="lab">Applied sustainability</div>
+        <div class="small">Municipal systems, circular economy & implementation reality</div>
+      </div>
+    </section>
+
+    <section style="margin-top:16px;" class="grid2">
+      <div class="card">
+        <h2>Featured projects</h2>
+        <ul class="list">
+          <li><strong>Trace element optimization in AD</strong> — dosing, inhibition, bioavailability thinking</li>
+          <li><strong>Pilot-scale reactor operation</strong> — monitoring, stability, troubleshooting</li>
+          <li><strong>Janakpurdham SWM support</strong> — assessment + operational improvements</li>
+        </ul>
+        <p class="small">See details: <a href="projects.html">Projects page</a></p>
+      </div>
+
+      <div class="card">
+        <h2>Skills snapshot</h2>
+        <div class="grid2">
+          <div>
+            <p class="small"><strong>Process & lab</strong></p>
+            <ul class="list">
+              <li>Anaerobic digestion / BMP</li>
+              <li>Sampling, pH/TS/VS basics</li>
+              <li>GC / AAS / COD (as applicable)</li>
+            </ul>
+          </div>
+          <div>
+            <p class="small"><strong>Data & tools</strong></p>
+            <ul class="list">
+              <li>GIS (maps + attributes)</li>
+              <li>Reporting & presentations</li>
+              <li>Learning: modeling + Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:16px;" class="card">
+      <h2>Experience timeline</h2>
+      <ul class="list">
+        <li><strong>Research Assistant</strong> — Resource recovery / anaerobic processes (reactor ops, lab analysis, reporting)</li>
+        <li><strong>Waste Smart Fellow</strong> — Municipal solid waste management support (assessment + implementation support)</li>
       </ul>
-    </div>
+      <p class="small">Want this as a proper CV section? Upload <code>resume.pdf</code> and I’ll add a clean CV block.</p>
+    </section>
 
-    <div class="card">
-      <h2>Quick links</h2>
-      <ul>
-        <li><a href="projects.html">Projects & case studies</a></li>
-        <li><a href="blog.html">Blog posts</a></li>
-        <li><a href="contact.html">Contact & CV</a></li>
-      </ul>
-    </div>
   </main>
 
   <footer class="footer">
-    <div class="container">© <span id="y"></span> Abhishek Halwai</div>
+    <div class="inner">
+      <div>© <span id="y"></span> Abhishek Halwai</div>
+      <div class="small">Built on GitHub Pages</div>
+    </div>
   </footer>
   <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
